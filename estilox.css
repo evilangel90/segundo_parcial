@@ -1,0 +1,73 @@
+#contenedor{
+    width: 1200px;
+    height: 1000px;
+    background: black;
+    margin: auto;
+}
+.header{
+    width: 1200px;
+    height: 50px;
+    background: rgb(219, 32, 32);
+}
+nav ul {
+    list-style: none;
+    float:left;
+}
+nav a{
+   color: darkslategray;
+   text-decoration: none;
+   padding: 20px;
+   font-family: Cooper Black;
+}
+nav ul li {
+    float: left;
+}
+
+.contenedor_secciones{
+    width: 1200px;
+    height: 900px;
+    background: rgb(225, 34, 49);
+}
+.seccion1{
+    width: 750px;
+    height: 300px;
+    background: rgb(70, 86, 87);
+    float: left;
+}
+.seccion2{
+    width: 450px;
+    height: 300px;
+    background: rgb(70, 86, 87);
+    float: right;
+}
+.seccion3{
+    width: 750px;
+    height: 300px;
+    background: rgb(70, 86, 87);
+    float: left;
+}
+.seccion4{
+    width: 450px;
+    height: 300px;
+    background: rgb(70, 86, 87);
+    float: right;
+    text-align: center;
+}
+.seccion5{
+    width: 750px;
+    height: 300px;
+    background: rgb(70, 86, 87);
+    float: left;
+    text-align: right;
+}
+.seccion6{
+    width: 450px;
+    height: 300px;
+    background: rgb(70, 86, 87);
+    float: right;
+}
+img{
+    object-fit: cover;
+    width:180px;
+    height:180px;
+  }
