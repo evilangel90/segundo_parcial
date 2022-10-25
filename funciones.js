@@ -11,3 +11,10 @@ btn2.addEventListener("click", function() {
     let dol = document.getElementById("dol").value;
     bs.value = dol / 0.14;
 });
+
+function mostrar_nombre() {
+    var user = document.getElementById("user").value;
+    var resultado = (user);
+    document.getElementById('lbResultado').innerHTML = resultado;
+    document.getElementById("user").value='';
+}
